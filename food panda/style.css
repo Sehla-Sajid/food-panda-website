@@ -1,0 +1,294 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* nav */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 60px;
+  width: 100%;
+  background-color: aliceblue;
+  position: fixed;
+  top: 0px;
+  box-shadow: 10px 5px 5px rgb(233, 149, 149);
+  z-index: 1000;
+}
+.fa-globe {
+  margin: 0px 10px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.logotext {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #e21b70;
+  margin-top: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.loginButton,
+.bt2 {
+  color: #e21b70;
+  background-color: white;
+  border-radius: 5px;
+  height: 30px;
+  width: 70px;
+  border: 1px solid #e21b70;
+  font-weight: bolder;
+}
+.loginButton :hover {
+  height: 37px;
+}
+span {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+span :hover {
+  height: 35px;
+  width: 75px;
+}
+.bt2 {
+  color: white;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+.languageselector {
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  width: 50px;
+}
+.fa-bucket {
+  height: 60px;
+  width: 60px;
+  background-color: antiquewhite;
+}
+
+/* main div */
+
+.maindiv {
+  display: flex;
+  background-color: rgb(250, 244, 235);
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+.textArea {
+  width: 50%;
+  margin-top: 100px;
+}
+.imageArea {
+  width: 50%;
+  margin-top: 100px;
+}
+.imageArea img {
+  width: 100%;
+}
+.body {
+  font-size: 20px;
+  color: rgb(85, 75, 75);
+  display: flex;
+  flex-direction: column;
+}
+.bigdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 90%;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+.addressinfo {
+  border-color: gray;
+}
+.addressinfo input {
+  height: 40px;
+  width: 350px;
+  border-color: gray;
+  border-radius: 5px;
+  /* margin: 10px 0px; */
+  /* padding: 10px; */
+}
+input {
+  border-color: grey;
+}
+.bigbtn {
+  background-color: #e21b70;
+  color: white;
+  height: 40px;
+  width: 80;
+}
+.addressinfo .bigbtn:hover {
+  height: 45px;
+}
+/* body 2 */
+.body2 h1 {
+  font-weight: lighter;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-weight: light;
+}
+.body2 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  width: 100%;
+}
+.boxofdiv {
+  height: 300px;
+  width: 550px;
+  background-color: white;
+  margin-left: 90px;
+  position: relative;
+  z-index: 98rem;
+  bottom: 100px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10px 5px 5px rgb(233, 149, 149);
+}
+.body2 p {
+  font-size: 18px;
+}
+.boxbutton {
+  height: 50px;
+  width: 100px;
+  background-color: #e21b70;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.boxofdiv .boxbutton:hover {
+  height: 55px;
+  width: 109px;
+}
+.cities h1 {
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row1 .utilityImage {
+  height: 230px;
+  width: 260px;
+  margin-top: 20px;
+  margin-left: 60px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.row1 .utilityImage:hover {
+  transform: scale(1.05); /* Increase the scale on hover */
+  box-shadow: 10px 5px 5px rgb(233, 149, 149);
+}
+.cityName {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  height: 30px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  top: 190px;
+  left: 20px;
+}
+/* appInfo */
+.appInfo {
+  padding: 10px;
+  width: 80%;
+  background-color: #e21b70;
+  border-radius: 10px;
+  height: 350px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.textDiv {
+  width: 50%;
+  color: white;
+}
+.imageDiv {
+  width: 50%;
+}
+.imageDiv img {
+  width: 100%;
+  position: relative;
+  top: -100px;
+}
+/* divisionInfo */
+.divisionInfo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+}
+.imageDiv1 {
+  width: 30%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
+.textDiv1 {
+  width: 80%;
+  margin: 0px 10px;
+}
+.imageDiv1 img {
+  width: 90%;
+  height: 90%;
+}
+.textDiv button {
+  display: flex;
+  background-color: black;
+  border: none;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30x;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.buttonDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.textDiv button i {
+  font-size: 20px;
+  margin: 0px 10px;
+}
+/* details */
+.details {
+  margin: 30px 0px;
+  padding: 20px;
+}
